@@ -13,3 +13,7 @@ p {
 .foot1 {
 	text-align: center;
 }
+
+.navbar {
+	border-color: teal;
+}
