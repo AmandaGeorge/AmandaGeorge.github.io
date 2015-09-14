@@ -1,12 +1,35 @@
-.prim3 {
-	width: 400px;
+.navbar-inverse .navbar-nav>li>a {
+    color: teal;
+}
+
+.navbar-inverse .navbar-brand {
+	color: teal;
+}
+
+.dropdown-menu>li>a {
+	color: teal;
+	background-color: #222;
+}
+
+.dropdown-menu {
+	background-color: #222;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+	color: white;
+	background-color: #222;
 }
 
 .head1 {
 	width: 100%;
+	padding-top: 50px;
 }
 
-p {
+.prim3 {
+	width: 450px;
+}
+
+h4 {
 	text-align: justify;
 }
 
