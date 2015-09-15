@@ -4,22 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- set viewport to device width to allow responsiveness -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-  <!-- custom styles (always require after Bootstrap) -->
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <!-- custom styles -->
   <link rel="stylesheet" href="style.css">
 
-  <script type="text/javascript" src="script.js"></script>
-
-  <title>Projects</title>
+  <title>Amanda George</title>
 </head>
 <body>
 
-  <img src="file:///Users/amanda/dev/portfolio/images/portfolio.jpg" class="head1" alt="Portfolio" align="center">
+  <img src="file:///Users/amanda/dev/portfolio/images/portfolio.jpg" class="head1 img-responsive" alt="Portfolio" align="center">
 
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
@@ -34,14 +32,23 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav pull-right nav-color">
-          <li><a href="#about">About</a></li>
+          <li><a href="#contact">About</a></li>
           <li><a href="#contact">Contact</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#">DanceOff</a></li>
-              <li><a href="#">LoveYourLife</a></li>
-              <li><a href="#">Nom Nom Paleo</a></li>
+              <li>
+                <a href="http://shelterdoggie.com"  target="_blank">ShelterDoggie</a>
+              </li>
+              <li>
+                <a href="https://danceoff.herokuapp.com" target="_blank">DanceOff</a>
+              </li>
+              <li>
+                <a href="https://loveyourlife.herokuapp.com" target="_blank">LoveYourLife</a>
+              </li>
+              <li>
+                <a href="https://vagabond-app.herokuapp.com" target="_blank">Vagabond</a>
+              </li>
             </ul>
           </li>
         </ul>
@@ -55,11 +62,25 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <img src="file:///Users/amanda/dev/portfolio/images/DanceOffAbout.png" class="prim3" alt="DanceOff">
+        <h3>ShelterDoggie</h3>
+        <h4 class="description">I built ShelterDoggie as an app for people who want to adopt a dog from a shelter and want the dog to be a good fit for them.  This app takes some of the guess-work out of choosing a dog.  By filling out the desired characteristics form, people can learn which breeds would be best for them.  Then ShelterDoggie will show the user where he/she can find those breeds in shelters near them.
+        <br>
+        <br>
+        Technologies include JavaScript, AngularJS, Node.js, Express, HTML, CSS, Bootstrap, MongoDB, AJAX, jQuery, KimonoLabs, Petfinder.com API, and Bower.</h4>
       </div>
       <div class="col-md-6">
+        <a href="http://shelterdoggie.com" target="_blank"><img src="file:///Users/amanda/dev/portfolio/images/shelterdoggie.png" class="prim3 img-responsive" alt="ShelterDoggie"></a>
+      </div>
+    </div>
+    <hr>
+    <br>
+    <div class="row">
+      <div class="col-md-6">
+        <a href="https://danceoff.herokuapp.com" target="_blank"><img src="file:///Users/amanda/dev/portfolio/images/DanceOffAbout.png" class="prim3 img-responsive" alt="DanceOff">
+      </div></a>
+      <div class="col-md-6">
         <h3>DanceOff</h3>
-        <h4>The idea behind Dance Off is simple. Upload of a video of you, your child, your pet, or even your plant, dancing. Other people will be able to vote on their favorite videos and the one with the most votes at the cutoff date, wins tickets to the concert! This was a group effort and I was responsible for controllers, testing, and routing.
+        <h4 class="description">The idea behind Dance Off is simple. Upload of a video of you, your child, your pet, or even your plant, dancing. Other people will be able to vote on their favorite videos and the one with the most votes at the cutoff date, wins tickets to the concert! This was a group effort and I was responsible for controllers, testing, and routing.
         <br>
         <br>
         Technologies include Ruby, Ruby on Rails, RSpec, HTML, CSS, Bootstrap, AJAX, and PostgreSQL.</h4>
@@ -70,24 +91,24 @@
     <div class="row">
       <div class="col-md-6">
         <h3>LoveYourLife</h3>
-        <h4>Love Your Life is a website where you can post random acts of kindness that happened to you or that you did for others. Or just something great that happened to you. Even if you log in, posts won't show your name. This isn't about who did what. This is about sharing the good and beautiful things that happen in our world just for the sake of putting good things out there. Hopefully you'll even get ideas for more ways to spread kindness. This was built as a solo project. 
+        <h4 class="description">Love Your Life is a website where you can post random acts of kindness that happened to you or that you did for others. Or just something great that happened to you. Even if you log in, posts won't show your name. This isn't about who did what. This is about sharing the good and beautiful things that happen in our world just for the sake of putting good things out there. Hopefully you'll even get ideas for more ways to spread kindness. This was built as a solo project. 
         <br>
         <br>
         Technologies include JavaScript, Node.js, Express, HTML, CSS, Bootstrap, AJAX, jQuery, Mocha, and Chai.</h4>
       </div>
       <div class="col-md-6">
-        <img src="file:///Users/amanda/dev/portfolio/images/LYL.png" class="prim3" alt="LoveYourLife">
+        <a href="https://loveyourlife.herokuapp.com/" target="_blank"><img src="file:///Users/amanda/dev/portfolio/images/LYL.png" class="prim3 img-responsive" alt="LoveYourLife"></a>
       </div>
     </div>
     <hr>
     <br>
     <div class="row">
       <div class="col-md-6">
-        <img src="file:///Users/amanda/dev/portfolio/images/vagabond.png" class="prim3" alt="Vagabond">
+        <a href="https://vagabond-app.herokuapp.com/" target="_blank"><img src="file:///Users/amanda/dev/portfolio/images/vagabond.png" class="prim3 img-responsive" alt="Vagabond"></a>
       </div>
       <div class="col-md-6">
         <h3>Vagabond</h3>
-        <h4>Vagabond is a travel community where users can share tips about their favorite locations around the world. This was built as a group project, and I was responsible for layout, routes, controllers, and database. 
+        <h4 class="description">Vagabond is a travel community where users can share tips about their favorite locations around the world. This was built as a group project, and I was responsible for layout, routes, controllers, and database. 
         <br>
         <br>
         Technologies include Ruby, Ruby on Rails, RSpec, HTML, CSS, Bootstrap, AJAX, PostgreSQL, and AWS S3.</h4>
@@ -102,34 +123,50 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-6 col-md-3">
+        <a href="http://vintageaffaire.org/" class="thumbnail" target="_blank">
+          <img src="file:///Users/amanda/dev/portfolio/images/va.png" alt="VintageAffaire">
+        </a>
+      </div>
+      <!-- <div class="col-xs-6 col-md-3">
         <a href="#" class="thumbnail">
-          <img src="file:///Users/amanda/dev/portfolio/images/sample1.jpg" alt="Sample1">
+          <img src="" alt="">
         </a>
       </div>
       <div class="col-xs-6 col-md-3">
         <a href="#" class="thumbnail">
-          <img src="file:///Users/amanda/dev/portfolio/images/sample2.jpg" alt="Sample2">
+          <img src="" alt="">
         </a>
       </div>
       <div class="col-xs-6 col-md-3">
         <a href="#" class="thumbnail">
-          <img src="file:///Users/amanda/dev/portfolio/images/sample3.png" alt="Sample3">
+          <img src="" alt="">
         </a>
-      </div>
-      <div class="col-xs-6 col-md-3">
-        <a href="#" class="thumbnail">
-          <img src="file:///Users/amanda/dev/portfolio/images/sample4.jpg" alt="Sample4">
-        </a>
-      </div>
+      </div> -->
     </div>
   </div>
   <br>
-  <div class="container">
-    <h1 class="foot1">Like what you see?</h1>
+  <div class="container-fluid" id="contact">
+    <h1 class="foot1">About Me</h1>
     <br>
-    <h3 class="foot1">Contact Me
-    <br>
-    Phone: 867-5309 | Email: me@gmail.com</h3>
+    <div class="col-sm-4" align="center">
+      <a href="https://www.github.com/amandageorge">
+        <h3><i class="fa fa-github"></i> GitHub</h3>
+      </a>
+      <a href="https://www.linkedin.com/in/amandageorge828">
+        <h3><i class="fa fa-linkedin"></i> LinkedIn</h3>
+      </a>
+    </div>
+    <div class="col-sm-4 thumbnail me-div" align="center">
+      <img src="file:///Users/amanda/dev/portfolio/images/me.jpg" alt="Amanda George" id="me">
+    </div>
+    <div class="col-sm-4" align="center">
+      <a href="mailto:me@amanda-george.com">
+        <h3><i class="fa fa-envelope-o"></i> Email</h3>
+      </a>
+      <a href="http://profiles.generalassemb.ly/amanda-george">
+        <h3><i class="fa fa-cog"></i> General Assembly</h3>
+      </a>
+    </div>
   </div>
 
  <!-- Bootstrap core JavaScript
@@ -137,9 +174,6 @@
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
-  <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-  <script src="../../assets/js/vendor/holder.min.js"></script>
-  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  <!-- <script type="text/javascript" src="script.js"></script> -->
 </body>
 </html>

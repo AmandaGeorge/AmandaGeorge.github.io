@@ -1,3 +1,7 @@
+.navbar {
+	border-color: teal;
+}
+
 .navbar-inverse .navbar-nav>li>a {
     color: teal;
 }
@@ -21,7 +25,6 @@
 }
 
 .head1 {
-	width: 100%;
 	padding-top: 50px;
 }
 
@@ -29,14 +32,42 @@
 	width: 450px;
 }
 
-h4 {
+.description {
 	text-align: justify;
+}
+
+h1,
+h3,
+h4 {
+	color: #000066;
 }
 
 .foot1 {
 	text-align: center;
 }
 
-.navbar {
+#contact {
+	background-color: teal;
+}
+
+#me {
+	border-radius: 50%;
+	max-height: 200px;
+	max-width: 200px;
+}
+
+.me-div {
+	background-color: teal;
 	border-color: teal;
+}
+
+hr {
+	border-color: teal;
+}
+
+i {
+	background-color: black;
+	color: white;
+	padding: 4px;
+	border-radius: 15%;
 }
