@@ -73,3 +73,7 @@ i {
 	padding: 4px;
 	border-radius: 15%;
 }
+
+.git-link {
+	color: teal;
+}
