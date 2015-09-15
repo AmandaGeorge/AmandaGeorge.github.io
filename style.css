@@ -30,6 +30,8 @@
 
 .prim3 {
 	width: 450px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
 }
 
 .description {
