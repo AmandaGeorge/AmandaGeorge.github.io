@@ -1,192 +1,195 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <title>Amanda George's Portfolio</title>
+    <meta name="viewport" content="width = device-width , initial-scale=1">
+    
+    <link rel="stylesheet" href="styles/animated-heading-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="mobile.css">
 
-  <!-- Bootstrap CDN -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
+    
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/modernizr.js"></script>
+    <script src="./scripts/script.js"></script>
+    
+  </head>
 
-  <!-- FontAwesome Icons -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <body>
 
-  <!-- custom styles -->
-  <link rel="stylesheet" href="style.css">
-
-  <title>Amanda George</title>
-</head>
-<body>
-
-  <img src="images/portfolio.jpg" class="head1 img-responsive" alt="Portfolio" align="center">
-
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar nav-color"></span>
-          <span class="icon-bar nav-color"></span>
-          <span class="icon-bar nav-color"></span>
-        </button>
-        <a class="navbar-brand nav-color" href="#">Amanda George</a>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav pull-right nav-color">
-          <!-- <li><a href="#contact">About</a></li> -->
-          <li><a href="#contact">Contact</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li>
-                <a href="http://shelterdoggie.com"  target="_blank">ShelterDoggie</a>
-              </li>
-              <li>
-                <a href="https://dance-off.herokuapp.com" target="_blank">DanceOff</a>
-              </li>
-              <li>
-                <a href="https://loveyourlife.herokuapp.com" target="_blank">LoveYourLife</a>
-              </li>
-              <li>
-                <a href="https://vagabond-app.herokuapp.com" target="_blank">Vagabond</a>
-              </li>
-            </ul>
-          </li>
+    <!-- DESKTOP NAV -->
+ 
+    <nav id="desktop">
+      <div class="nav-wrapper">
+        <a href="/">Amanda George</a>
+        <ul class="right">
+          <li><a class="links" href="#work-div">WORK</a></li>
+          <li><a class="links" href="https://drive.google.com/file/d/0B0_WyRReedWKalJGX0NvaWJBRGM/view?usp=sharing" target="_blank">RESUME</a></li>
+          <li><a class="links" href="#contact-div">CONTACT</a></li>
         </ul>
       </div>
+    </nav>
+
+    <!-- mobile nav -->
+
+    <nav id="mobile">
+      <a href="/">Amanda George</a>
+      <ul id="slide-out" class="side-nav">
+        <a href="/">AG</a>
+         <li><a class="mobile-links" href="#work-div">WORK</a></li>
+         <li><a class="mobile-links" href="https://drive.google.com/file/d/0B0_WyRReedWKalJGX0NvaWJBRGM/view?usp=sharing" target="_blank">RESUME</a></li>
+         <li><a class="mobile-links" href="#contact-div">CONTACT</a></li>
+      </ul>
+      <a href="#" data-activates="slide-out" id="hamburger"><i class="mdi-navigation-menu"></i></a>
+    </nav>
+
+    <!-- HOME DIV -->
+
+    <div id="home-div">
+
+      <span id="name">Amanda George </span><br>
+
+      <section>
+        <h1 id="occupation" class="cd-headline rotate-1">
+
+          <span>Web Developer /</span>
+          <span class="cd-words-wrapper">
+            <b class="is-visible options"> IT Girl</b>
+            <b class="options"> Fashion Lover</b>
+            <b class="options"> Finance Enthusiast</b>
+            <b class="options"> Horseback Rider</b>
+            <b class="options"> Voracious Reader</b>
+            <b class="options"> Aspiring Foodie</b>
+          </span>
+        </h1>
+      </section>
+
+      <a href="#work-div"><i class="mdi-hardware-keyboard-arrow-down"></i></a>
+
     </div>
-  </nav>
 
 
-  <br>
-  <br>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <h3><u>ShelterDoggie</u></h3>
-        <h4 class="description">I built ShelterDoggie as an app for people who want to adopt a dog from a shelter and want the dog to be a good fit for them.  This app takes some of the guess-work out of choosing a dog.  By filling out the desired characteristics form, people can learn which breeds would be best for them.  Then ShelterDoggie will show the user where he/she can find those breeds in shelters near them.
-        <br>
-        <br>
-        Technologies include JavaScript, AngularJS, Node.js, Express, HTML, CSS, Bootstrap, MongoDB, AJAX, jQuery, KimonoLabs, Petfinder.com API, and Bower.
-        <br>
-        <br>
-        <a href="https://github.com/AmandaGeorge/shelter_doggie" target="_blank" class="git-link">GitHub</a></h4>
-      </div>
-      <div class="col-md-6">
-        <a href="http://shelterdoggie.com" target="_blank"><img src="images/shelterdoggie.png" class="prim3 img-responsive" alt="ShelterDoggie"></a>
-      </div>
-    </div>
-    <hr>
-    <br>
-    <div class="row">
-      <div class="col-md-6">
-        <a href="https://dance-off.herokuapp.com" target="_blank"><img src="images/DanceOffAbout.png" class="prim3 img-responsive" alt="DanceOff">
-      </div></a>
-      <div class="col-md-6">
-        <h3><u>DanceOff</u></h3>
-        <h4 class="description">The idea behind Dance Off is simple. Upload of a video of you, your child, your pet, or even your plant, dancing. Other people will be able to vote on their favorite videos and the one with the most votes at the cutoff date, wins tickets to the concert! This was a group effort and I was responsible for controllers, testing, and routing.
-        <br>
-        <br>
-        Technologies include Ruby, Ruby on Rails, RSpec, HTML, CSS, Bootstrap, AJAX, and PostgreSQL.
-        <br>
-        <br>
-        <a href="https://github.com/danielkahn/DanceOff" target="_blank" class="git-link">GitHub</a></h4>
-      </div>
-    </div>
-    <hr>
-    <br>
-    <div class="row">
-      <div class="col-md-6">
-        <h3><u>LoveYourLife</u></h3>
-        <h4 class="description">Love Your Life is a website where you can post random acts of kindness that happened to you or that you did for others. Or just something great that happened to you. Even if you log in, posts won't show your name. This isn't about who did what. This is about sharing the good and beautiful things that happen in our world just for the sake of putting good things out there. Hopefully you'll even get ideas for more ways to spread kindness. This was built as a solo project. 
-        <br>
-        <br>
-        Technologies include JavaScript, Node.js, Express, HTML, CSS, Bootstrap, AJAX, jQuery, Mocha, and Chai.
-        <br>
-        <br>
-        <a href="https://github.com/AmandaGeorge/love_your_life" target="_blank" class="git-link">GitHub</a></h4>
-      </div>
-      <div class="col-md-6">
-        <a href="https://loveyourlife.herokuapp.com" target="_blank"><img src="images/LYL.png" class="prim3 img-responsive" alt="LoveYourLife"></a>
-      </div>
-    </div>
-    <hr>
-    <br>
-    <div class="row">
-      <div class="col-md-6">
-        <a href="https://vagabond-app.herokuapp.com" target="_blank"><img src="images/vagabond.png" class="prim3 img-responsive" alt="Vagabond"></a>
-      </div>
-      <div class="col-md-6">
-        <h3><u>Vagabond</u></h3>
-        <h4 class="description">Vagabond is a travel community where users can share tips about their favorite locations around the world. This was built as a group project, and I was responsible for layout, routes, controllers, and database. 
-        <br>
-        <br>
-        Technologies include Ruby, Ruby on Rails, RSpec, HTML, CSS, Bootstrap, AJAX, PostgreSQL, and AWS S3.
-        <br>
-        <br>
-        <a href="https://github.com/AmandaGeorge/Vagabondapp" target="_blank" class="git-link">GitHub</a></h4>
-      </div>
-    </div>
-  </div>
-  <hr>
-  <div class="container">
-    <h1 align="center">More</h1>
-  </div>
-  <br>
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-6 col-md-3" align="center">
-        <a href="http://vintageaffaire.org" class="thumbnail" target="_blank">
-          <img src="images/va.png" alt="VintageAffaire">
-        </a>
-        <h4>Webmaster</h4>
-      </div>
-      <!-- <div class="col-xs-6 col-md-3">
-        <a href="#" class="thumbnail">
-          <img src="" alt="">
-        </a>
-      </div>
-      <div class="col-xs-6 col-md-3">
-        <a href="#" class="thumbnail">
-          <img src="" alt="">
-        </a>
-      </div>
-      <div class="col-xs-6 col-md-3">
-        <a href="#" class="thumbnail">
-          <img src="" alt="">
-        </a>
-      </div> -->
-    </div>
-  </div>
-  <br>
-  <div class="container-fluid" id="contact">
-    <h1 class="foot1">About Me</h1>
-    <br>
-    <div class="col-sm-4">
-      <a href="https://www.github.com/amandageorge">
-        <h3><i class="fa fa-github"></i> GitHub</h3>
-      </a>
-      <a href="https://www.linkedin.com/in/amandageorge828">
-        <h3><i class="fa fa-linkedin"></i> LinkedIn</h3>
-      </a>
-    </div>
-    <div class="col-sm-4 thumbnail me-div" align="center">
-      <img src="images/me.jpg" alt="Amanda George" id="me">
-    </div>
-    <div class="col-sm-4" align="right">
-      <a href="mailto:me@amanda-george.com">
-        <h3>Email <i class="fa fa-envelope-o"></i></h3>
-      </a>
-      <a href="https://drive.google.com/file/d/0B0_WyRReedWKalJGX0NvaWJBRGM/view?usp=sharing" target="_blank">
-        <h3>Resume <i class="fa fa-file-pdf-o"></i></h3>
-      </a>
-    </div>
-  </div>
+    <!-- WORK DIV -->
 
- <!-- Bootstrap core JavaScript
-  ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
-  <!-- <script type="text/javascript" src="script.js"></script> -->
-</body>
+    <div id="work-div">
+
+      <div class="row">
+
+        <!-- MONITOR SECTION -->
+
+        <div id="monitor-div" class="col s12 m6">
+          <img id="doggie-monitor-img" class="show monitor-img" src="./images/shelterdoggie.png">
+          <img id="dance-monitor-img" class="hidden monitor-img" src="./images/DanceOffAbout.png">
+          <img id="vagabond-monitor-img" class="hidden monitor-img" src="./images/vagabond.png">
+          <img id="love-monitor-img" class="hidden monitor-img" src="./images/LYL.png">
+          <img id="monitor" src="http://pngimg.com/upload/laptop_PNG5893.png">
+          <!-- http://pngimg.com/upload/laptop_PNG5893.png -->
+        </div>
+
+        <div class="project-details">
+
+          <!-- DOGGIE DETAILS -->
+
+          <div class="show" id="doggie-details">
+            <div class="work-header">RECENT WORK</div>
+            <div class="project-header">ShelterDoggie</div>
+            <a class="see-work waves-effect waves-light teal lighten-4 btn projectSite" href="http://shelterdoggie.com" target="_blank">PROJECT SITE</a>
+
+            <div class="detail first-detail">Answer the characteristics questions and find out which breeds would be best for you. ShelterDoggie will show you where to find those breeds in shelters in the Bay Area.</div><br>
+
+            <div class="detail">Technologies include JavaScript, AngularJS, Node.js, Express, HTML, CSS, Bootstrap, MongoDB, AJAX, jQuery, KimonoLabs, and Bower. Powered by data from the <strong>Petfinder API</strong>. I built this app in 1 week.</div>
+          </div>
+
+          <!-- DANCE DETAILS -->
+
+          <div class="hidden" id="dance-details">
+            <div class="work-header">RECENT WORK</div>
+            <div class="project-header">DanceOff</div>
+            <a class="see-work waves-effect waves-light teal lighten-4 btn projectSite" href="http://dance-off.herokuapp.com" target="_blank">PROJECT SITE</a>
+
+            <div class="detail first-detail">Dance to compete for concert tickets! Upload of a video of you, your child, or even your pet dancing. Vote on your favorite videos and the one with the most votes at the cutoff date, wins!</div><br>
+
+            <div class="detail">I worked on a team of 4 to build this app in 1 week. My responsibilities included controllers, testing, and routing. Technologies include Ruby, Ruby on Rails, RSpec, HTML, CSS, Bootstrap, AJAX, and PostgreSQL.</div>
+          </div>
+
+          <!-- VAGABOND DETAILS -->
+
+          <div class="hidden" id="vagabond-details">
+            <div class="work-header">RECENT WORK</div>
+            <div class="project-header">Vagabond</div>
+            <a class="see-work waves-effect waves-light teal lighten-4 btn projectSite" href="https://vagabond-app.herokuapp.com" target="_blank">PROJECT SITE</a>
+
+            <div class="detail first-detail">Share tips and stories about your favorite locations around the world.</div><br>
+
+            <div class="detail">My team and I built Vagabond in one week. I was responsible for layout, routes, controllers, and database. Technologies include Ruby, Ruby on Rails, RSpec, HTML, CSS, Bootstrap, AJAX, PostgreSQL, and AWS S3.</div>
+          </div>
+
+          <!-- LOVE DETAILS -->
+
+          <div class="hidden" id="love-details">
+            <div class="work-header">RECENT WORK</div>
+            <div class="project-header">LoveYourLife</div>
+            <a class="see-work waves-effect waves-light teal lighten-4 btn projectSite" href="https://loveyourlife.herokuapp.com/" target="_blank">PROJECT SITE</a>
+
+            <div class="detail first-detail">Anonymously post random acts of kindness that happened to you or that you did for others. Or just something great that happened to you! Share the good and beautiful things that happen in our world just for the sake of putting good things out there and inspiring the spread of kindness.</div><br>
+
+            <div class="detail">This was my first General Assembly project, which I built in 1 week. Technologies include JavaScript, Node.js, Express, HTML, CSS, Bootstrap, AJAX, jQuery, Mocha, and Chai.</div>
+          </div>
+        </div>
+
+        <!-- SELECTION PANEL -->
+
+        <div id="work-selection" class="">
+           <img style="width:400px" class="work-thumbnail" id="doggie-thumb" src="./images/shelterdoggie.png">
+           <img style="width:400px" class="work-thumbnail" id="dance-thumb" src="./images/DanceOffAbout.png">
+           <img style="width:400px" class="work-thumbnail" id="vagabond-thumb" src="./images/vagabond.png">
+           <img style="width:400px" class="work-thumbnail" id="love-thumb" src="./images/LYL.png">
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT DIV -->
+
+    <div id="contact-div" class="row">
+
+      <div id="img-div" class="col s12 m4">
+        <img id="headshot" src="./images/me.jpg">
+        <div id="icon-box" align="center">
+          <a class="tooltipped" data-position="top" data-delay="50" data-tooltip="me@amanda-george.com" id="mail-contact" style="font-size:18px" href="mailto:me@amanda-george.com"><span><img class="icons" src="./images/mail.png"></span></a>
+          <a class="tooltipped icon-link" data-position="top" data-delay="50" data-tooltip="amandageorge828" href="http://www.linkedin.com/in/amandageorge828"><span><img id="linkedin" class="icons" src="./images/linkedin.png"></span></a>
+          <a class="icon-link tooltipped" data-position="top" data-delay="50" data-tooltip="amandageorge" href="http://www.github.com/amandageorge"><span><img id="github" class="icons" src="./images/github3.png"></span></a>
+        </div>
+      </div>
+      <div id="contact-details" class="col s12 m8">
+
+        <p id="main-details">
+          <div id="hi">Hi, I'm Amanda!</div>
+          <strong>I'm a full-stack web developer with a passion for learning.  I have a background in tech support and business operations.  I loved the bit of coding I had done in the past, and decided to pursue the education necessary to be a professional developer.  Now I'm a graduate of the General Assembly Web Development Immersive course in San Francisco, with experience building JavaScript, Ruby on Rails, and MEAN-stack apps both on my own and in teams.</strong>
+        </p>
+          
+        <div id="skills">
+          SKILL SET:<br><br>
+          LANGUAGES: HTML5, CSS3, JavaScript, Ruby, Node.js<br>
+          FRAMEWORKS: Rails, Node.js, Express, AngularJS <br>
+          DATABASE TOOLS: PostgreSQL, MongoDB <br>
+          TESTING: Mocha, Chai, RSpec <br>
+          AUTHORIZATION: bcrypt, MEAN-auth <br>
+          OTHER: Github, jQuery, AJAX, JSON, Bootstrap, Heroku, Kimono, WordPress<br><br>
+          For more details, feel free to check out my <a class="waves-effect waves-light btn resume-btn btn-flat" href="https://drive.google.com/file/d/0B0_WyRReedWKalJGX0NvaWJBRGM/view?usp=sharing" target="_blank">r&eacute;sum&eacute;</a>.
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div id="copyright">&copy Amanda George, 2015</div>
+    </footer>
+
+  </body>
+
 </html>

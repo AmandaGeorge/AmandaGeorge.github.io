@@ -1,0 +1,142 @@
+
+@media only screen 
+  and (min-device-width: 300px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+
+  /*GENERAL*/
+
+  body, html {
+   width: auto !important;
+   overflow-x: hidden !important;
+  }
+
+  #desktop{
+  	display:none;
+  	width:100%;
+  }
+
+
+  #hamburger{
+  	display:inline;
+  	font-size:28px;
+  	float:right;
+  	margin-right:15px;
+  }
+
+  #mobile{
+  	display:inline;
+  	width:100vw;
+
+  }
+
+  .side-nav{
+  	background-color:teal;
+  	padding-top:20px;
+  }
+
+  a.mobile-links{
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:300;
+  font-size:20px;
+  color:white;
+  }
+
+  a.mobile-links::selected{
+  	color:teal !important;
+  }
+
+  #occupation, .options{
+  	font-size:35px;
+  }
+
+  #name{
+  	font-size:55px;
+  }
+
+  /*HOME DIV*/
+
+  #home-div{
+        background-position:-100px 52px;
+        background-repeat:no-repeat;
+        
+  }
+
+
+
+
+  /*WORK DIV*/
+
+  #work-div{
+  	padding-top:50px;
+    height:700px;
+
+  }
+
+  .work-header{
+  	font-size:35px;
+  }
+
+  .work-thumbnail{
+  	display:inline-block;
+  	width:40% !important;
+  	margin-top:0;
+  	margin-bottom:0;
+  }
+
+  #work-selection{
+    position:relative;
+    margin-top:155px;
+  }
+
+  div.detail{
+  	font-size:16px;
+    width:100%;
+    margin-left:0;
+   
+  }
+
+  #doggie-details, #dance-details, #vagabond-details, #love-details{
+    padding-left:5.7%;
+}
+
+  div.project-header{
+  	font-size:30px;
+  	width:100%;
+    position:relative;
+    top:122%;
+    margin-left:0;
+    margin-top:50px;
+  }
+
+  .see-work{
+  	margin-left:-41%;
+    margin-top:10px;
+  	padding-left:12px;
+  	padding-right:12px;
+  }
+
+  /*CONTACT DIV*/
+
+  #hi{
+  	font-size:42px;
+  	text-align:center;
+  	margin-top:20px;
+  }
+
+  #skills{
+  	margin:0 auto;
+  	margin-bottom:20px;
+  }
+
+  #contact-details{
+  	text-align:justify;
+  	margin-right:0;
+  }
+
+  p#more-details{
+  	width:100%;  }
+
+}

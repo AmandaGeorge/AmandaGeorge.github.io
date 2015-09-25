@@ -1,0 +1,365 @@
+/*/*GENERAL*/
+body{
+  background-color:white;
+  color:white;
+  z-index:-1;
+  overflow-x:hidden;
+  width:100%;
+}
+
+
+nav{
+  z-index:999000;
+  position:fixed;
+  top:0;
+  left:0;
+  background-color:rgb(229, 89,87);
+  opacity:0.9;
+}
+
+#copyright{
+  text-align:center;
+  font-size:14px;
+  position:relative;
+  bottom:10px;
+  color:white;
+
+}
+
+footer{
+  background-color:teal;
+  padding-top:14px;
+}
+
+#hamburger{
+  display:none;
+}
+
+#mobile{
+  display:none;
+}
+
+/*HOME DIV*/
+
+#home-div {
+  left:0;
+  right:0;
+  height:100vh;
+  background:url(../images/fabric.jpg);
+  background-size:cover;
+  font-family: 'Sansita One', cursive;
+  z-index:-1;
+  text-align:center;
+  padding-top:124px;
+  background-color:white;
+}
+
+#name {
+  margin:0 auto;
+  font-size:80px;
+  text-shadow:1px 2px 2px white;
+  color:rgb(72,70,72);
+  border-radius: 6px;
+  background-color: rgba(229, 89, 87, 0.8);
+  padding: 20px;
+}
+
+#occupation{
+  font-size:45px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:400;
+  text-shadow:1px 2px 2px white;
+  color:rgb(72,70,72);
+  margin-top:45px;
+  border-radius: 6px;
+  background-color: rgba(229, 89, 87, 0.8);
+  /*padding: 20px;*/
+}
+
+.options{
+  font-size:45px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:400;
+  text-shadow:1px 2px 2px white;
+  color:rgb(72,70,72);
+}
+
+.logo{
+  height:80%;
+  margin-top:6px;
+  margin-left:15px;
+}
+
+.logo:hover{
+  opacity:0.8;
+}
+
+.links{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:300;
+  font-size:20px;
+}
+
+.links:hover {
+
+  background-color:rgb(114,191,182);
+  height:63.5px;
+  color:white;
+  font-weight:400;
+
+}
+
+.mdi-hardware-keyboard-arrow-down{
+  font-size:55px;
+  color:white;
+  border:1px solid white;
+  border-radius:50%;
+  padding-top:3px;
+  margin-top:20px;
+}
+
+.mdi-hardware-keyboard-arrow-down:hover {
+  color:teal;
+  border:1px solid teal;
+}
+
+/*WORK-DIV*/
+
+
+#work-div {
+  left:0;
+  right:0;
+  height:100vh;
+  background-color:white;
+  z-index:-1;
+  padding-top:105px;
+  text-align:center;
+
+}
+
+.work-header {
+  font-size:50px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:300;
+  color:teal;
+  position:relative;
+  margin-left:54.8%;
+}
+
+.monitor-img {
+  width: 35.95%;
+  height: auto;
+  position: absolute;
+  left: 6.082%;
+  margin-top: 1.55%;
+  margin-left: 1.8%;
+  z-index: 1;
+}
+
+#monitor {
+  width: 39%;
+  height: auto;
+  position: absolute;
+  left: 6.3%;
+  z-index: 0;
+}
+
+.projectSite {
+  left: 40.5%;
+}
+
+
+#work-selection{
+  position: absolute;
+  width:100%;
+  top: 175%;
+  display:table;
+}
+
+
+.work-thumbnail{
+  width:18% !important;
+  position: relative;
+  margin: 2.7%;
+  border:4px solid white;
+  border-radius:5px;
+  padding:4px;
+}
+
+.work-thumbnail:hover{
+  opacity:0.8;
+  /*border:4px solid rgb(72,70,72);*/
+  border-radius:5px;
+  padding:4px;
+
+
+}
+
+#doggie-thumb{
+  border:4px solid teal;
+}
+
+.project-details{
+
+  height:300px;
+  color:rgb(72,70,72);
+  font-weight:300;
+  text-align:center;
+}
+
+#doggie-details, #dance-details, #vagabond-details, #love-details{
+  text-align:left;
+  width:95%;
+  padding-left:50px;
+}
+
+.project-header{
+  font-size:38px;
+  font-weight:500;
+  width:45%;
+  margin-left:55%;
+  margin-top:30px;
+}
+
+.detail{
+  margin-left:55%;
+  width:45%;
+  font-size:20px;
+}
+
+.hidden{
+  display:none;
+}
+
+.show{
+  display:block;
+}
+
+.see-work{
+  margin-bottom:20px;
+  font-size:15px;
+  margin-left:14.7%;
+  margin-top:5px;
+  font-weight:500;
+  color:teal;
+  z-index:0;
+  
+}
+
+/*CONTACT DIV*/
+
+
+#contact-div {
+  left:0;
+  right:0;
+  height:100vh;
+  background-color:teal;
+  z-index:-1;
+  padding-top:10%;
+  /*margin-top: 5%;*/
+  margin-bottom:0;
+}
+
+#headshot{
+  width:63%;
+  height:auto;
+  border-radius:5px;
+  margin-left:20%;
+  margin-top:20px;
+  border: 4px solid white;
+  padding:6px;
+  /*bottom:100px;*/
+  position:relative;
+  /*top:-500px;*/
+}
+
+
+#hi{
+  font-size:50px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:300;
+  color:white;
+  margin-left:0;
+  margin-bottom:30px;
+  position:relative;
+}
+
+#contact-details p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:300;
+  color:white;
+  font-size:20px;
+  width:90%;
+}
+
+#skills{
+  font-size:18px;
+  border: 2px solid white;
+  border-radius:5px;
+  width:90%;
+  padding:10px;
+  margin-bottom:15px;
+}
+
+.icons{
+  width:16.5%;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 2.5%;
+  margin-right: 5%;
+}
+
+#icon-box{
+  border:3px solid white;
+  border-radius:5%;
+  width:63%;
+  margin-left:20%;
+  margin-top:4%;
+}
+
+a.icon-link{
+  font-size:18px;
+}
+
+span #mail-contact{
+  font-size:18px;
+}
+
+.icon-link:hover{
+  color:rgb(114,191,182);
+}
+
+
+.resume-btn{
+  height:25px;
+  width:70px;
+  font-size:16px;
+  margin-top:0;
+  padding-top:-20px;
+  padding-left:5px;
+  padding-right:5px;
+  color:white;
+  padding-bottom:35px;
+}
+
+.resume-btn:hover{
+  background-color:rgb(114,191,182);
+}
+
+a.resume-btn{
+  top:-3px;
+}
+
+.card{
+  position:relative;
+  height:60%;
+}
+
+#more-details{
+  margin-bottom:20px;
+}
+
+#contact-details #main-details{
+  font-size:24px;
+
+}*/
