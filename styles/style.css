@@ -7,7 +7,6 @@ body{
   width:100%;
 }
 
-
 nav{
   z-index:999000;
   position:fixed;
@@ -23,7 +22,6 @@ nav{
   position:relative;
   bottom:10px;
   color:white;
-
 }
 
 footer{
@@ -73,7 +71,6 @@ footer{
   margin-top:45px;
   border-radius: 6px;
   background-color: rgba(229, 89, 87, 0.8);
-  /*padding: 20px;*/
 }
 
 .options{
@@ -106,7 +103,6 @@ footer{
   height:63.5px;
   color:white;
   font-weight:400;
-
 }
 
 .mdi-hardware-keyboard-arrow-down{
@@ -125,16 +121,15 @@ footer{
 
 /*WORK-DIV*/
 
-
 #work-div {
   left:0;
   right:0;
-  height:100vh;
+  height:850px;
+  min-height: 100vh;
   background-color:white;
   z-index:-1;
-  padding-top:105px;
+  padding-top:65px;
   text-align:center;
-
 }
 
 .work-header {
@@ -142,8 +137,6 @@ footer{
   font-family: 'Source Sans Pro', sans-serif;
   font-weight:300;
   color:teal;
-  position:relative;
-  margin-left:54.8%;
 }
 
 .monitor-img {
@@ -164,18 +157,22 @@ footer{
   z-index: 0;
 }
 
+.project-header{
+  font-size:38px;
+  font-weight:500;
+  width:45%;
+  margin-left:55%;
+}
+
 .projectSite {
   left: 40.5%;
 }
 
-
 #work-selection{
-  position: absolute;
+  position: relative;
   width:100%;
-  top: 175%;
   display:table;
 }
-
 
 .work-thumbnail{
   width:18% !important;
@@ -191,8 +188,6 @@ footer{
   /*border:4px solid rgb(72,70,72);*/
   border-radius:5px;
   padding:4px;
-
-
 }
 
 #doggie-thumb{
@@ -200,25 +195,14 @@ footer{
 }
 
 .project-details{
-
-  height:300px;
   color:rgb(72,70,72);
   font-weight:300;
-  text-align:center;
 }
 
 #doggie-details, #dance-details, #vagabond-details, #love-details{
   text-align:left;
   width:95%;
   padding-left:50px;
-}
-
-.project-header{
-  font-size:38px;
-  font-weight:500;
-  width:45%;
-  margin-left:55%;
-  margin-top:30px;
 }
 
 .detail{
@@ -243,11 +227,9 @@ footer{
   font-weight:500;
   color:teal;
   z-index:0;
-  
 }
 
 /*CONTACT DIV*/
-
 
 #contact-div {
   left:0;
@@ -255,8 +237,8 @@ footer{
   height:100vh;
   background-color:teal;
   z-index:-1;
-  padding-top:10%;
-  /*margin-top: 5%;*/
+  padding-top:8%;
+ /* padding-top:65px;*/
   margin-bottom:0;
 }
 
@@ -268,11 +250,8 @@ footer{
   margin-top:20px;
   border: 4px solid white;
   padding:6px;
-  /*bottom:100px;*/
   position:relative;
-  /*top:-500px;*/
 }
-
 
 #hi{
   font-size:50px;
@@ -329,7 +308,6 @@ span #mail-contact{
   color:rgb(114,191,182);
 }
 
-
 .resume-btn{
   height:25px;
   width:70px;
@@ -361,5 +339,4 @@ a.resume-btn{
 
 #contact-details #main-details{
   font-size:24px;
-
-}*/
+}

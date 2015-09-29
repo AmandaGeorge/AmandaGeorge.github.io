@@ -2,14 +2,14 @@
 <html>
   <head>
     <title>Amanda George's Portfolio</title>
-    <meta name="viewport" content="width = device-width , initial-scale=1">
+    <meta name="viewport" content="width = device-width, initial-scale=1">
     
     <link rel="stylesheet" href="styles/animated-heading-style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
     <link href='https://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" type='text/css' href="styles/style.css">
+    <link rel="stylesheet" type='text/css' href="styles/mobile.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -41,7 +41,6 @@
     <nav id="mobile">
       <a href="/">Amanda George</a>
       <ul id="slide-out" class="side-nav">
-        <a href="/">AG</a>
          <li><a class="mobile-links" href="#work-div">WORK</a></li>
          <li><a class="mobile-links" href="https://drive.google.com/file/d/0B0_WyRReedWKalJGX0NvaWJBRGM/view?usp=sharing" target="_blank">RESUME</a></li>
          <li><a class="mobile-links" href="#contact-div">CONTACT</a></li>
@@ -80,6 +79,21 @@
     <div id="work-div">
 
       <div class="row">
+        <div class="work-header">RECENT WORK</div>
+      </div>
+      <div class="row">
+          
+        <!-- SELECTION PANEL -->
+
+        <div id="work-selection" class="">
+           <img style="width:400px" class="work-thumbnail" id="doggie-thumb" src="./images/shelterdoggie.png">
+           <img style="width:400px" class="work-thumbnail" id="dance-thumb" src="./images/DanceOffAbout.png">
+           <img style="width:400px" class="work-thumbnail" id="vagabond-thumb" src="./images/vagabond.png">
+           <img style="width:400px" class="work-thumbnail" id="love-thumb" src="./images/LYL.png">
+        </div>
+      </div>
+
+      <div class="row">
 
         <!-- MONITOR SECTION -->
 
@@ -91,13 +105,14 @@
           <img id="monitor" src="http://pngimg.com/upload/laptop_PNG5893.png">
           <!-- http://pngimg.com/upload/laptop_PNG5893.png -->
         </div>
+      </div>
 
+      <div class="row">
         <div class="project-details">
 
           <!-- DOGGIE DETAILS -->
 
           <div class="show" id="doggie-details">
-            <div class="work-header">RECENT WORK</div>
             <div class="project-header">ShelterDoggie</div>
             <a class="see-work waves-effect waves-light teal lighten-4 btn projectSite" href="http://shelterdoggie.com" target="_blank">PROJECT SITE</a>
 
@@ -109,7 +124,7 @@
           <!-- DANCE DETAILS -->
 
           <div class="hidden" id="dance-details">
-            <div class="work-header">RECENT WORK</div>
+            <!-- <div class="work-header">RECENT WORK</div> -->
             <div class="project-header">DanceOff</div>
             <a class="see-work waves-effect waves-light teal lighten-4 btn projectSite" href="http://dance-off.herokuapp.com" target="_blank">PROJECT SITE</a>
 
@@ -121,7 +136,7 @@
           <!-- VAGABOND DETAILS -->
 
           <div class="hidden" id="vagabond-details">
-            <div class="work-header">RECENT WORK</div>
+            <!-- <div class="work-header">RECENT WORK</div> -->
             <div class="project-header">Vagabond</div>
             <a class="see-work waves-effect waves-light teal lighten-4 btn projectSite" href="https://vagabond-app.herokuapp.com" target="_blank">PROJECT SITE</a>
 
@@ -133,7 +148,7 @@
           <!-- LOVE DETAILS -->
 
           <div class="hidden" id="love-details">
-            <div class="work-header">RECENT WORK</div>
+            <!-- <div class="work-header">RECENT WORK</div> -->
             <div class="project-header">LoveYourLife</div>
             <a class="see-work waves-effect waves-light teal lighten-4 btn projectSite" href="https://loveyourlife.herokuapp.com/" target="_blank">PROJECT SITE</a>
 
@@ -143,14 +158,6 @@
           </div>
         </div>
 
-        <!-- SELECTION PANEL -->
-
-        <div id="work-selection" class="">
-           <img style="width:400px" class="work-thumbnail" id="doggie-thumb" src="./images/shelterdoggie.png">
-           <img style="width:400px" class="work-thumbnail" id="dance-thumb" src="./images/DanceOffAbout.png">
-           <img style="width:400px" class="work-thumbnail" id="vagabond-thumb" src="./images/vagabond.png">
-           <img style="width:400px" class="work-thumbnail" id="love-thumb" src="./images/LYL.png">
-        </div>
       </div>
     </div>
 

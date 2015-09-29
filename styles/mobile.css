@@ -53,25 +53,22 @@
   }
 
   #name{
-  	font-size:55px;
+  	font-size:45px;
+    padding: 10px;
   }
 
   /*HOME DIV*/
 
   #home-div{
-        background-position:-100px 52px;
-        background-repeat:no-repeat;
-        
+    background-repeat:no-repeat;      
   }
-
-
-
 
   /*WORK DIV*/
 
   #work-div{
   	padding-top:50px;
-    height:700px;
+    height:1310px;
+    /*padding-bottom: 20%;*/
 
   }
 
@@ -88,27 +85,41 @@
 
   #work-selection{
     position:relative;
-    margin-top:155px;
   }
 
   div.detail{
-  	font-size:16px;
+  	font-size:20px;
     width:100%;
     margin-left:0;
-   
   }
 
   #doggie-details, #dance-details, #vagabond-details, #love-details{
     padding-left:5.7%;
-}
+  }
+
+  #monitor {
+  width: 89.85%;
+  height: auto;
+  position: absolute;
+  left: 5%;
+  z-index: 0;
+  }
+
+  .monitor-img {
+  width: 83.2%;
+  height: auto;
+  position: absolute;
+  left: 6.572%;
+  margin-top: 3.5%;
+  z-index: 1;
+  }
 
   div.project-header{
-  	font-size:30px;
-  	width:100%;
+    font-size:30px;
+    width:100%;
     position:relative;
-    top:122%;
     margin-left:0;
-    margin-top:50px;
+    margin-top:80%;
   }
 
   .see-work{
@@ -128,6 +139,7 @@
 
   #skills{
   	margin:0 auto;
+    text-align: left;
   	margin-bottom:20px;
   }
 
