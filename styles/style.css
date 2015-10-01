@@ -35,7 +35,7 @@ nav {
   font-family: 'Sansita One', cursive;
   z-index:-1;
   text-align:center;
-  padding-top:124px;
+  padding-top:25%;
   background-color:white;
 }
 
@@ -235,8 +235,7 @@ nav {
   width:250px;
   height:auto;
   border-radius:50%;
-  /*margin-left:20%;*/
-  margin-top:20px;
+  margin-top:30px;
   padding:6px;
   position:relative;
 }

@@ -45,6 +45,13 @@
   	color:teal !important;
   }
 
+  /*HOME DIV*/
+
+  #home-div {
+    background-repeat:no-repeat;
+    padding-top:50%;     
+  }
+
   #occupation, 
   .options {
   	font-size:35px;
@@ -55,18 +62,11 @@
     padding:10px;
   }
 
-  /*HOME DIV*/
-
-  #home-div {
-    background-repeat:no-repeat;      
-  }
-
   /*WORK DIV*/
 
   #work-div {
   	padding-top:50px;
     height:1310px;
-    /*padding-bottom: 20%;*/
   }
 
   .work-header {
