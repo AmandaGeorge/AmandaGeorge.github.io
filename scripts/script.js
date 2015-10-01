@@ -32,11 +32,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
     $('#dance-details').removeClass('show').addClass('hidden');
     $('#vagabond-details').removeClass('show').addClass('hidden');
     $('#love-details').removeClass('show').addClass('hidden');
-    //monitor photo
-    $('#doggie-monitor-img').removeClass('hidden').addClass('show');
-    $('#dance-monitor-img').removeClass('show').addClass('hidden');
-    $('#vagabond-monitor-img').removeClass('show').addClass('hidden');
-    $('#love-monitor-img').removeClass('show').addClass('hidden');
+    //imac photo
+    $('#doggie-imac-img').removeClass('hidden').addClass('show');
+    $('#dance-imac-img').removeClass('show').addClass('hidden');
+    $('#vagabond-imac-img').removeClass('show').addClass('hidden');
+    $('#love-imac-img').removeClass('show').addClass('hidden');
     // active
     $('#doggie-thumb').css("border", "4px solid teal");
     $('#dance-thumb').css("border", "none");
@@ -50,11 +50,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
     $('#doggie-details').removeClass('show').addClass('hidden');
     $('#vagabond-details').removeClass('show').addClass('hidden');
     $('#love-details').removeClass('show').addClass('hidden');
-     //monitor photo
-    $('#dance-monitor-img').removeClass('hidden').addClass('show');
-    $('#doggie-monitor-img').removeClass('show').addClass('hidden');
-    $('#vagabond-monitor-img').removeClass('show').addClass('hidden');
-    $('#love-monitor-img').removeClass('show').addClass('hidden');
+     //imac photo
+    $('#dance-imac-img').removeClass('hidden').addClass('show');
+    $('#doggie-imac-img').removeClass('show').addClass('hidden');
+    $('#vagabond-imac-img').removeClass('show').addClass('hidden');
+    $('#love-imac-img').removeClass('show').addClass('hidden');
      // active
     $('#dance-thumb').css("border", "4px solid teal");
     $('#doggie-thumb').css("border", "none");
@@ -68,11 +68,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
     $('#dance-details').removeClass('show').addClass('hidden');
     $('#doggie-details').removeClass('show').addClass('hidden');
     $('#love-details').removeClass('show').addClass('hidden');
-     //monitor photo
-    $('#vagabond-monitor-img').removeClass('hidden').addClass('show');
-    $('#doggie-monitor-img').removeClass('show').addClass('hidden');
-    $('#dance-monitor-img').removeClass('show').addClass('hidden');
-    $('#love-monitor-img').removeClass('show').addClass('hidden');
+     //imac photo
+    $('#vagabond-imac-img').removeClass('hidden').addClass('show');
+    $('#doggie-imac-img').removeClass('show').addClass('hidden');
+    $('#dance-imac-img').removeClass('show').addClass('hidden');
+    $('#love-imac-img').removeClass('show').addClass('hidden');
      // active
     $('#vagabond-thumb').css("border", "4px solid teal");
     $('#dance-thumb').css("border", "none");
@@ -86,11 +86,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
     $('#dance-details').removeClass('show').addClass('hidden');
     $('#vagabond-details').removeClass('show').addClass('hidden');
     $('#doggie-details').removeClass('show').addClass('hidden');
-     //monitor photo
-    $('#love-monitor-img').removeClass('hidden').addClass('show');
-    $('#doggie-monitor-img').removeClass('show').addClass('hidden');
-    $('#dance-monitor-img').removeClass('show').addClass('hidden');
-    $('#vagabond-monitor-img').removeClass('show').addClass('hidden');
+     //imac photo
+    $('#love-imac-img').removeClass('hidden').addClass('show');
+    $('#doggie-imac-img').removeClass('show').addClass('hidden');
+    $('#dance-imac-img').removeClass('show').addClass('hidden');
+    $('#vagabond-imac-img').removeClass('show').addClass('hidden');
      // active
     $('#love-thumb').css("border", "4px solid teal");
     $('#dance-thumb').css("border", "none");
