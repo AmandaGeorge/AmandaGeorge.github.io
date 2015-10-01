@@ -5,116 +5,116 @@
   and (-webkit-min-device-pixel-ratio: 2) { 
 
 
-  /*GENERAL*/
+  /*MOBILE CSS*/
 
   body, html {
    width: auto !important;
    overflow-x: hidden !important;
   }
 
-  #desktop{
+  #desktop {
   	display:none;
   	width:100%;
   }
 
-
-  #hamburger{
+  #hamburger {
   	display:inline;
   	font-size:28px;
   	float:right;
   	margin-right:15px;
   }
 
-  #mobile{
+  #mobile {
   	display:inline;
   	width:100vw;
-
   }
 
-  .side-nav{
+  .side-nav {
   	background-color:teal;
   	padding-top:20px;
   }
 
-  a.mobile-links{
-
-  font-family: 'Source Sans Pro', sans-serif;
+  a.mobile-links {
+  font-family:sans-serif;
   font-weight:300;
-  font-size:20px;
+  font-size:18px;
   color:white;
   }
 
-  a.mobile-links::selected{
+  a.mobile-links::selected {
   	color:teal !important;
   }
 
-  #occupation, .options{
+  #occupation, 
+  .options {
   	font-size:35px;
   }
 
-  #name{
+  #name {
   	font-size:45px;
-    padding: 10px;
+    padding:10px;
   }
 
   /*HOME DIV*/
 
-  #home-div{
+  #home-div {
     background-repeat:no-repeat;      
   }
 
   /*WORK DIV*/
 
-  #work-div{
+  #work-div {
   	padding-top:50px;
     height:1310px;
     /*padding-bottom: 20%;*/
-
   }
 
-  .work-header{
+  .work-header {
   	font-size:35px;
   }
 
-  .work-thumbnail{
+  .work-thumbnail {
   	display:inline-block;
   	width:40% !important;
   	margin-top:0;
   	margin-bottom:0;
   }
 
-  #work-selection{
+  #work-selection {
     position:relative;
   }
 
-  div.detail{
+  div.detail {
   	font-size:20px;
     width:100%;
     margin-left:0;
   }
 
-  #doggie-details, #dance-details, #vagabond-details, #love-details{
+  #doggie-details,
+  #dance-details,
+  #vagabond-details,
+  #love-details {
     padding-left:5.7%;
   }
 
-  #monitor {
-  width: 89.85%;
-  height: auto;
-  position: absolute;
-  left: 5%;
-  z-index: 0;
+  #imac {
+  width:89.85%;
+  height:auto;
+  position:absolute;
+  left:5%;
+  z-index:0;
   }
 
-  .monitor-img {
-  width: 83.2%;
-  height: auto;
-  position: absolute;
-  left: 6.572%;
-  margin-top: 3.5%;
-  z-index: 1;
+  .imac-img {
+  width:83.2%;
+  height:auto;
+  position:absolute;
+  left:6.572%;
+  margin-top:3.5%;
+  z-index:1;
   }
 
-  div.project-header{
+  div.project-header {
     font-size:30px;
     width:100%;
     position:relative;
@@ -122,7 +122,7 @@
     margin-top:80%;
   }
 
-  .see-work{
+  .site-link {
   	margin-left:-41%;
     margin-top:10px;
   	padding-left:12px;
@@ -131,24 +131,19 @@
 
   /*CONTACT DIV*/
 
-  #hi{
+  #hello {
   	font-size:42px;
   	text-align:center;
   	margin-top:20px;
   }
 
-  #skills{
-  	margin:0 auto;
-    text-align: left;
-  	margin-bottom:20px;
-  }
-
-  #contact-details{
+  #contact-details {
   	text-align:justify;
   	margin-right:0;
   }
 
-  p#more-details{
-  	width:100%;  }
+  p#more-details {
+  	width:100%;
+  }
 
 }
