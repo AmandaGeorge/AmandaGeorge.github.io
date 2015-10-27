@@ -106,7 +106,7 @@ nav {
 #work-div {
   left:0;
   right:0;
-  height:850px;
+  height:auto;
   min-height: 100vh;
   background-color:white;
   z-index:-1;
@@ -213,6 +213,43 @@ nav {
   font-weight:500;
   color:rgb(0,128,128);
   z-index:0;
+}
+
+/*OTHER DIV*/
+
+#other-div {
+  left:0;
+  right:0;
+  background-color:#b2dfdb;
+  z-index:-1;
+  padding-top:50px;
+  padding-bottom: 50px;
+  text-align:center;
+  margin-top: 10px;
+}
+
+.other-header {
+  font-size:45px;
+  font-family:sans-serif;
+  font-weight:300;
+  color:rgb(0,128,128);
+}
+
+#other-selection {
+  padding-top: 40px;
+  color: rgb(0,128,128);
+}
+
+#other-selection a {
+  color: rgb(0,128,128);
+  text-decoration: underline;
+}
+
+.other-thumbnail {
+  width:25rem;
+  border:4px solid rgb(0,128,128);
+  border-radius:5px;
+  padding:4px;
 }
 
 /*CONTACT DIV*/
