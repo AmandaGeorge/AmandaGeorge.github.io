@@ -121,6 +121,32 @@ nav {
   color:rgb(0,128,128);
 }
 
+#work-selection {
+  position:relative;
+  width:100%;
+  display:table;
+}
+
+.work-thumbnail {
+  width:18% !important;
+  position:relative;
+  margin:2.7%;
+  border:4px solid white;
+  border-radius:5px;
+  padding:4px;
+}
+
+.work-thumbnail:hover,
+.work-thumbnail:focus {
+  opacity:0.8;
+  border-radius:5px;
+  padding:4px;
+}
+
+#doggie-thumb {
+  border:4px solid rgb(0,128,128);
+}
+
 .imac-img {
   width:35.95%;
   height:auto;
@@ -149,32 +175,6 @@ nav {
 
 .projectSite {
   left:40.5%;
-}
-
-#work-selection {
-  position:relative;
-  width:100%;
-  display:table;
-}
-
-.work-thumbnail {
-  width:18% !important;
-  position:relative;
-  margin:2.7%;
-  border:4px solid white;
-  border-radius:5px;
-  padding:4px;
-}
-
-.work-thumbnail:hover,
-.work-thumbnail:focus {
-  opacity:0.8;
-  border-radius:5px;
-  padding:4px;
-}
-
-#doggie-thumb {
-  border:4px solid rgb(0,128,128);
 }
 
 .project-details {
