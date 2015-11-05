@@ -27,20 +27,16 @@ nav {
 /*HOME DIV*/
 
 #home-div {
-  left:0;
-  right:0;
   height:100vh;
   background:url(../images/tealstar.jpg);
   background-size:cover;
   font-family: 'Sansita One', cursive;
-  z-index:-1;
   text-align:center;
-  padding-top:25%;
+  padding-top:19rem;
   background-color:white;
 }
 
 #name {
-  margin:0 auto;
   font-size:80px;
   text-shadow:1px 2px 2px white;
   color:rgb(72,70,72);
@@ -283,6 +279,7 @@ nav {
   margin: 0.8rem 0 0;
   color: rgb(72,70,72);
   font-size: 20px;
+  text-align: left;
 }
 
 /*CONTACT DIV*/
@@ -301,6 +298,11 @@ nav {
   margin-bottom:0;
 }
 
+#img-div,
+#icons-div {
+  text-align: center;
+}
+
 #headshot {
   width:250px;
   height:auto;
@@ -311,13 +313,7 @@ nav {
 }
 
 #hello {
-  font-size:45px;
-  font-family:sans-serif;
   font-weight:300;
-  color:white;
-  margin-left:0;
-  margin-bottom:30px;
-  position:relative;
 }
 
 #contact-details p {
@@ -380,10 +376,6 @@ hr.style-two {
   margin-top:10px;
   margin-bottom:5px;
   margin-right:10px;
-}
-
-span #mail-contact {
-  font-size:18px;
 }
 
 .card {

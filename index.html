@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:fb="http://ogp.me/ns/fb#">
+      prefix="fb: http://ogp.me/ns/fb#">
   <head>
-    <meta content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
     <meta property="og:type" content="website" />
     <meta property="og:title" content="About Amanda George" />
     <meta property="og:site_name" content="Amanda George" />
@@ -109,21 +109,21 @@
         <!-- SELECTION PANEL -->
 
         <div id="work-selection" class="">
-           <img style="width:400px" class="work-thumbnail" id="doggie-thumb" src="./images/shelterdoggie.png">
-           <img style="width:400px" class="work-thumbnail" id="dance-thumb" src="./images/DanceOffAbout.png">
-           <img style="width:400px" class="work-thumbnail" id="vagabond-thumb" src="./images/vagabond.png">
-           <img style="width:400px" class="work-thumbnail" id="love-thumb" src="./images/LYL.png">
+           <img style="width:400px" class="work-thumbnail" id="doggie-thumb" alt="ShelterDoggie" src="./images/shelterdoggie.png">
+           <img style="width:400px" class="work-thumbnail" id="dance-thumb" alt="DanceOff" src="./images/DanceOffAbout.png">
+           <img style="width:400px" class="work-thumbnail" id="vagabond-thumb" alt="Vagabond" src="./images/vagabond.png">
+           <img style="width:400px" class="work-thumbnail" id="love-thumb" alt="LoveYourLife" src="./images/LYL.png">
         </div>
       </div>
 
         <!-- IMAC SECTION -->
       <div class="row">
         <div id="imac-div" class="col s12 m6">
-          <img id="doggie-imac-img" class="show imac-img" src="./images/shelterdoggie.png">
-          <img id="dance-imac-img" class="hidden imac-img" src="./images/DanceOffAbout.png">
-          <img id="vagabond-imac-img" class="hidden imac-img" src="./images/vagabond.png">
-          <img id="love-imac-img" class="hidden imac-img" src="./images/LYL.png">
-          <img id="imac" src="http://pngimg.com/upload/laptop_PNG5893.png">
+          <img id="doggie-imac-img" class="show imac-img" alt="ShelterDoggie" src="./images/shelterdoggie.png">
+          <img id="dance-imac-img" class="hidden imac-img" alt="DanceOff" src="./images/DanceOffAbout.png">
+          <img id="vagabond-imac-img" class="hidden imac-img" alt="Vagabond" src="./images/vagabond.png">
+          <img id="love-imac-img" class="hidden imac-img" alt="LoveYourLife" src="./images/LYL.png">
+          <img id="imac" alt="iMac" src="http://pngimg.com/upload/laptop_PNG5893.png">
         </div>
       </div>
 
@@ -188,22 +188,22 @@
         <div class="col m6 s12 card-container">
           <a class="card" href="http://www.vintageaffaire.org" target="_blank">
             <div>
-              <img class="artwork" src="./images/va.png">
+              <img class="artwork" alt="VintageAffaire.org" src="./images/va.png">
             </div>
             <div class="text-container">
               <h5>Vintage Affaire</h5>
-              <p align="left">Webmaster responsible for managing website redesign project, including WordPress theme selection, layout, and site organization.  Maintain website using HTML and CSS.</p>
+              <p>Webmaster responsible for managing website redesign project, including WordPress theme selection, layout, and site organization.  Maintain website using HTML and CSS.</p>
             </div>
           </a>
         </div>
         <div class="col m6 s12 card-container">
           <a class="card" href="http://www.guidosgourmet.com" target="_blank">
             <div>
-              <img class="artwork" src="./images/guido.png">
+              <img class="artwork" alt="GuidosGourmet.com" src="./images/guido.png">
             </div>
             <div class="text-container">
               <h5>Guido's Gourmet</h5>
-              <p align="left">Web consultant advising on layout, UX, and site organization.  Assist founder with updates and debugging.</p>
+              <p>Web consultant advising on layout, UX, and site organization.  Assist founder with updates and debugging.</p>
             </div>
           </a>
         </div>
@@ -214,18 +214,18 @@
 
     <div id="contact-div">
       <div class="row">
-        <div id="img-div" class="col s12 m4" align="center">
-          <img id="headshot" src="./images/me.jpg">
-          <div align="center">
-            <a class="tooltipped" data-position="top" data-delay="50" data-tooltip="me@amanda-george.com" id="mail-contact" style="font-size:18px" href="mailto:me@amanda-george.com"><span><img class="icons" src="./images/mail.png"></span></a>
-            <a class="tooltipped icon-link" data-position="top" data-delay="50" data-tooltip="amandageorge828" href="http://www.linkedin.com/in/amandageorge828"><span><img id="linkedin" class="icons" src="./images/linkedin.png"></span></a>
-            <a class="icon-link tooltipped" data-position="top" data-delay="50" data-tooltip="amandageorge" href="http://www.github.com/amandageorge"><span><img id="github" class="icons" src="./images/github3.png"></span></a>
+        <div id="img-div" class="col s12 m4">
+          <img id="headshot" alt="Amanda George" src="./images/me.jpg">
+          <div id="icons-div">
+            <a title="me@amanda-george.com" id="mail-contact" href="mailto:me@amanda-george.com"><img class="icons" alt="email" src="./images/mail.png"></a>
+            <a title="www.linkedin.com/in/amandageorge828" href="http://www.linkedin.com/in/amandageorge828"><img id="linkedin" class="icons" alt="LinkedIn" src="./images/linkedin.png"></a>
+            <a title="www.github.com/amandageorge" href="http://www.github.com/amandageorge"><img id="github" class="icons" alt="GitHub" src="./images/github3.png"></a>
           </div>
         </div>
         <div id="contact-details" class="col s12 m8">
+          <h3 id="hello">Hello World!</h3>
           <p id="main-details">
-            <div id="hello">Hello World!</div>
-            <strong>I'm Amanda, a full-stack web developer with a passion for learning.  I have a background in tech support and business operations.  After enjoying my exposure to coding, I decided to pursue the education necessary to be a professional developer.  Now I'm a graduate of the San Francisco General Assembly Web Development Immersive course with experience building JavaScript, Ruby on Rails, and MEAN-stack apps, both on my own and in teams.</strong>
+            I'm Amanda, a full-stack web developer with a passion for learning.  I have a background in tech support and business operations.  After enjoying my exposure to coding, I decided to pursue the education necessary to be a professional developer.  Now I'm a graduate of the San Francisco General Assembly Web Development Immersive course with experience building JavaScript, Ruby on Rails, and MEAN-stack apps, both on my own and in teams.
           </p>
         </div>
       </div>
@@ -279,5 +279,5 @@
       </div>
     </div>
   </body>
-<!-- Inspired by www.laurengo.com -->
+  <!-- Icons and base layout by Lauren Go -->
 </html>
