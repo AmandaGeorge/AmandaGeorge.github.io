@@ -82,7 +82,7 @@ nav {
   font-weight:400;
 }
 
-.mdi-hardware-keyboard-arrow-down {
+.keyboard_arrow_down {
   font-size:55px;
   color:white;
   border:1px solid white;
@@ -91,8 +91,8 @@ nav {
   margin-top:20px;
 }
 
-.mdi-hardware-keyboard-arrow-down:hover,
-.mdi-hardware-keyboard-arrow-down:focus {
+.keyboard_arrow_down:hover,
+.keyboard_arrow_down:focus {
   color:rgb(0,128,128);
   border:1px solid rgb(0,128,128);
 }
@@ -211,9 +211,9 @@ nav {
   z-index:0;
 }
 
-/*OTHER DIV*/
+/*FREELANCE DIV*/
 
-#other-div {
+#freelance-div {
   left:0;
   right:0;
   background-color:#b2dfdb;
@@ -224,21 +224,19 @@ nav {
   margin-top: 10px;
 }
 
-.other-header {
+.freelance-header {
   font-size:45px;
   font-family:sans-serif;
   font-weight:300;
   color:rgb(0,128,128);
 }
 
-#other-selection {
+#freelance-selection {
   color: rgb(0,128,128);
   margin-left: auto;
   margin-right: auto;
   padding: 40px 10px;
   position: relative;
-  /*keeps the two col m6's smaller and centered together on the screen*/
-  max-width: 980px !important;
 }
 
 .card-container {
@@ -266,24 +264,33 @@ nav {
 
 .text-container {
   color: rgb(0,128,128);
-  min-height: 15rem;
-  padding: 1rem 0.8rem 1rem;
+  min-height: 15em;
+  padding: 1em 0.8em 1em;
   position: relative;
 }
 
 .text-container h5 {
-  margin-top: 0.5rem;
-  font-size: 1.7rem;
-  line-height: 1.4rem;
+  margin-top: 0.5em;
+  font-size: 25px;
+  line-height: 1.4em;
   font-weight: 500;
 }
 
 .text-container p {
-  font-size: 16px;
-  margin: 0.8rem 0 0;
+  font-size: 19px;
+  margin: 0.8em 0 0;
   color: rgb(72,70,72);
-  font-size: 20px;
   text-align: left;
+}
+
+.btn {
+  text-transform: none;
+  background-color: teal;
+}
+
+.modal-content div p {
+  color: rgb(72,70,72);
+  font-size: 1.3em;
 }
 
 /*CONTACT DIV*/
